@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 179.1 49.4" style="enable-background:new 0 0 179.1 49.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Ebrima-Bold';}
+	.st1{font-size:18.7468px;}
+	.st2{fill:#EFB716;}
+	.st3{font-size:17.1846px;}
+	.st4{fill:none;stroke:#040000;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#E83818;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 7.9019 23.0061)" class="st0 st1">No Brand</text>
+	<rect x="105" y="13.3" class="st2" width="63.7" height="23.8"/>
+	<text transform="matrix(1 0 0 1 112.7706 29.5588)" class="st0 st3">Buger</text>
+	<polygon class="st4" points="3.5,4.5 97.3,4.5 105,13.3 105,37.1 11.6,37.1 3.5,28.3 	"/>
+	<path class="st5" d="M105,37.1"/>
+	<polyline class="st6" points="105,13.3 168.7,13.3 176.4,22.1 176.4,45.8 112.8,45.8 105,37.1 168.7,37.1 168.7,13.3 	"/>
+	<line class="st6" x1="168.7" y1="37.1" x2="176.4" y2="45.8"/>
+	<polyline class="st6" points="3.5,28.3 97.3,28.3 105,37.1 	"/>
+	<line class="st6" x1="97.3" y1="4.5" x2="97.3" y2="28.3"/>
+</g>
+</svg>
