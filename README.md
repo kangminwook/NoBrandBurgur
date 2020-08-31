@@ -27,3 +27,11 @@
 
 
 ![Fitdays스크린샷2](./assets/image/README_img_02.jpg)
+
+
+
+---------------------------------------------------------------------
+
+
+
+![Fitdays스크린샷3](./assets/image/README_img_03.jpg)
