@@ -266,7 +266,8 @@ header .rightMenu span i {
 
 #wrap .couponeList li .burgerMenu h2 {
     display: -webkit-box;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
     margin-bottom: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -693,6 +694,224 @@ header .rightMenu span i {
     color:#000;
     outline:none;
 }
+
+
+/* mY메뉴 추가 */
+
+#wrap .myMenuType2 {
+    
+}
+
+
+#wrap .myMenuType2 h6 {
+    display: flex;
+    align-items: center;
+}
+
+#wrap .myMenuType2 h6 > div:first-child {
+    flex: 1;
+}
+
+#wrap .myMenuType2 h6 > div:last-child {
+    text-align: center;
+}
+
+#wrap .myMenuType2 h6 > div:last-child button {
+    display: block;
+    width:50px;
+    height:27px;
+    background:#efc521;
+    outline:none;
+    border:none;
+}
+
+
+/* 버거 상품  */
+#wrap .product .userAddress i {
+    margin-right:10px;
+}
+
+#wrap .product .userAddress {
+    padding:15px 0;
+    text-align: center;
+    background:#444;
+    color:#fff;
+    font-family: 'Noto Sans KR';
+    font-size:1rem;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+#wrap .product .productTabMenu {
+    
+}
+
+#wrap .product .productTabMenu ul {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom:1px solid #e3e3e3;
+}
+
+
+
+#wrap .product .productTabMenu ul li {
+    position: relative;
+}
+
+#wrap .product .productTabMenu ul li a {
+    display: block;
+    text-align: center;
+    padding:15px 0;
+    font-family: 'Noto Sans KR';
+    font-size:.9rem;
+    color:#777;
+}
+
+#wrap .product .productTabMenu ul li.active a {
+    color:#efc521;
+    font-weight: bold;
+}
+
+#wrap .product .productTabMenu ul li.active::before{
+    display: block;
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:1px;
+    background:#efc521;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(1){
+    width:50%;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(1)::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width:1px;
+    top:25%;
+    right:0;
+    height:50%;
+    background:#e3e3e3;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(2){
+    width:50%;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(3){
+    width:33.3333%;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(3)::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width:1px;
+    top:25%;
+    right:0;
+    height:50%;
+    background:#e3e3e3;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(4){
+    width:33.3333%;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(4)::after{
+    display: block;
+    content: "";
+    position: absolute;
+    width:1px;
+    top:25%;
+    right:0;
+    height:50%;
+    background:#e3e3e3;
+}
+
+#wrap .product .productTabMenu ul li:nth-child(5){
+    width:33.3333%;
+}
+
+
+.productBody header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    background:#fff;
+    z-index:9999;
+}
+
+.productBody .product .userAddress{
+    position: fixed;
+    top:55px;
+    left:0;
+    width: 100%;
+    z-index:9999;
+}
+
+.productBody .product .productTabMenu{
+    position: fixed;
+    top:101px;
+    left:0;
+    width: 100%;
+    z-index:9999;
+    background:#fff;
+}
+
+.productBody .product .productMenu {
+    margin-top:191px;
+}
+
+#wrap .product .productMenu li{
+    display: flex;
+    align-items: center;
+    padding:15px 1rem;
+    border-bottom:1px solid #f1f1f1;
+}
+
+
+#wrap .product .productMenu li > div:nth-child(1){
+    width:25%;
+    text-align: center;
+}
+
+#wrap .product .productMenu li > div:nth-child(1) img{
+    width:100%;
+}
+
+#wrap .product .productMenu li > div:nth-child(2){
+    padding-left:5px;
+    flex:1;
+}
+
+#wrap .product .productMenu li > div:nth-child(2) h4{
+    font-weight: 400;
+    font-size:.9rem;
+    margin-bottom:3px;
+}
+
+#wrap .product .productMenu li > div:nth-child(2) p{
+    font-family: 'Noto Sans KR';
+    font-size:.9rem;
+    margin-bottom:3px;
+    line-height:1.2;
+    color:#777;
+}
+
+#wrap .product .productMenu li > div:nth-child(2) strong{
+    font-size:.9rem;
+    color:#efc521;
+    font-weight: 400;
+}
+
 
 /* footer */
 footer {
