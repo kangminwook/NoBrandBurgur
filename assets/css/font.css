@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family:'Bar-Code 39';
+    src:    
+            url('./font/Code39.eot?#iefix') format('embedded-opentype'),
+            url('./font/Code39.woff') format('woff'),
+            url('./font/Code39.ttf') format('truetype'),
+            url('./font/Code39.svg#Bar-Code 39') format('svg');
+}
+@font-face{
+    font-family:'BMDOHYEON'; src: url(./font/BMDOHYEON_ttf.ttf) format('truetype')
+}

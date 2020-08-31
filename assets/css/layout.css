@@ -1,12 +1,6 @@
+@import url(./font.css);
 
-@font-face {
-    font-family:'Bar-Code 39';
-    src:    
-            url('./font/Code39.eot?#iefix') format('embedded-opentype'),
-            url('./font/Code39.woff') format('woff'),
-            url('./font/Code39.ttf') format('truetype'),
-            url('./font/Code39.svg#Bar-Code 39') format('svg');
-}
+
 .barcode{
     font-family:'Bar-Code 39';
 }
@@ -32,13 +26,13 @@ header h1{
     line-height:55px;
     text-align: center;
     font-size:1.3rem;
-    font-family: "impact";
+    font-family: "impact",'BMDOHYEON';
     font-weight: normal;
 }
 header h1 img {
     position: relative;
-    top:6px;
-    width:100%;
+    top:7px;
+    width:45%;
     max-width:180px;
 }
 
@@ -167,7 +161,7 @@ header .rightMenu span i {
 
 #wrap .orderCheck p > a span{
     position: absolute;
-    top:16px;
+    top:19px;
     right:15px;
     font-size:1.3rem;
     color:#efc521;
@@ -245,6 +239,7 @@ header .rightMenu span i {
     padding:7px 2px;
     background:#cc3300;
     border-radius: 50%;
+    font-family: 'Noto Sans KR';
     color:#fff;
     font-weight: bold;
     font-size:.9rem;
@@ -289,17 +284,20 @@ header .rightMenu span i {
 }
 
 #wrap .couponeList li .burgerCost h3 {
+    font-family: 'Noto Sans KR';
     text-decoration: line-through;
     margin-bottom:8px;
     color:#bbb;
 }
 
 #wrap .couponeList li .burgerCost h2 {
+    font-family: 'Noto Sans KR';
     color:#efc521;
     font-size:1.2rem;
     margin-bottom:8px;
 }
 #wrap .couponeList li .burgerCost p {
+    font-family: 'Noto Sans KR';
     color:#cc3300;
     font-size:.9rem;
     font-weight: bold;
@@ -362,11 +360,15 @@ header .rightMenu span i {
 
 
 #wrap .stampBox h3 {
+    font-family:'BMDOHYEON';
+    font-weight: 400;
     text-align: center;
     font-size:1.25rem;
 }
 
 #wrap .stampBox h3 span {
+    font-family:'BMDOHYEON';
+    font-weight: 400;
     color:#cc3300;
     padding-left:15px;
 }
@@ -396,6 +398,7 @@ header .rightMenu span i {
 #wrap .stampBarcode h5 {
     border-radius: 4px 4px 0 0;
     padding:12px 0;
+    font-family:'BMDOHYEON';
     font-size:1.1rem;
     font-weight: 400;
     background:#444;
@@ -414,9 +417,282 @@ header .rightMenu span i {
 }
 
 #wrap .stampBarcode > div .barcode + p{
+    font-family: 'Noto Sans KR';
     font-weight: bold;
 }
 
+
+
+/* mypage */
+#wrap .mypageHeader{
+    padding:40px 1rem;
+}
+
+#wrap .mypageHeader h2{
+    font-size:1.3rem;
+}
+
+#wrap .mypageHeader h2 a {
+    position: relative;
+    top:-6px;
+    display:block;
+    float:right;
+    font-size:12px;
+}
+
+#wrap .mypageHeader h2 a i {
+    position: relative;
+    top:3px;
+    margin-left:3px;
+    font-size:17px;
+}
+
+#wrap .mypageHeader h4 {
+    margin-top:9px;
+    font-weight: 400;
+}
+
+
+#wrap .mypageBody {
+    padding:20px 1rem;
+    background:#f1f1f1;
+}
+
+#wrap .mypageBody > span {
+    font-size:13px;
+    display:block;
+    margin-bottom:18px;
+}
+
+#wrap .mypageBody > span i {
+    position: relative;
+    top:1.5px;
+    margin-right:5px;
+}
+
+#wrap .mypageBody > p {
+    font-size:1.2rem;
+    font-weight: 400;
+    font-family: 'Noto Sans KR';
+}
+
+#wrap .myAdSet {
+    padding:30px 0;
+    display: flex;
+    align-items: center;
+}
+
+#wrap .myAdSet li {
+    position: relative;
+    width:50%;
+}
+
+#wrap .myAdSet li:nth-child(1)::after {
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    right:0;
+    width:1px;
+    height:100%;
+    background:#ddd;
+
+}
+
+#wrap .myAdSet li a {
+    display:block;
+    text-align: center;
+    padding:10px 0;
+}
+
+#wrap .myAdSet li a i {
+    font-size:2rem;
+}
+
+#wrap .myAdSet li a  span{
+    margin-top:10px;
+    display:block;
+    font-size:.8rem;
+}
+
+
+#wrap .mypageCategory {
+
+}   
+
+#wrap .mypageCategory li {
+
+}
+
+#wrap .mypageCategory li a {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom:1px solid #ddd;
+}
+
+#wrap .mypageCategory li a p {
+    flex :1;
+    font-size:.9rem;
+}
+
+#wrap .mypageCategory li a span {
+    width:5%;
+}
+
+#wrap .mypageFtInfo {
+    margin-top:20px;
+    padding:20px 0;
+    font-size:.7rem;
+    color:#777;
+}
+
+
+.bodyType2{
+    height: 100vh;
+    overflow-y:hidden;
+}
+
+.wrapType2{
+    margin-bottom: 0 !important;   
+}
+
+.wrapType2 > div {
+    position: relative;
+    height: 100vh;
+    background:#f1f1f1;
+    padding:25px 1rem 0;
+}
+
+#wrap .infoChkBg {
+    position: relative;
+    height: 100vh;
+    background:#f1f1f1;
+    padding:25px 1rem 0;
+}
+
+#wrap .infoChkBg > p{
+    font-family: 'Noto Sans KR';
+    font-size:1.1rem;
+    text-align: center;
+    margin-bottom: 7px;
+}
+#wrap .infoChkBg > h6 {
+    margin-top:25px;
+    margin-bottom:15px;
+    font-weight: 400;
+}
+
+#wrap .infoChkBg .userPwdBox {
+    background: #fff;
+    padding:20px 1rem;
+
+}
+
+#wrap .infoChkBg .userPwdBox .formInputBox {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #e3e3e3;
+}
+
+#wrap .infoChkBg .userPwdBox .formInputBox input {
+    font-family: 'Noto Sans KR';
+    border:none;
+    padding:10px 0;
+    flex:1;
+}
+
+#wrap .infoChkBg .userPwdBox .formInputBox input:focus{
+    outline:none;
+}
+
+#wrap .infoChkBg .userPwdBox .formInputBox input::placeholder{
+    font-size:1.1rem;
+}
+
+#wrap .infoChkBg .userPwdBox .formInputBox input + label {
+    display: block;
+    text-align: center;
+    width:10%;
+    padding:0 5px;
+}
+
+
+#wrap .myMenu h6 span{
+    color:#cc3300;
+}
+
+
+#wrap .myMenuNone {
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    width:100%;
+    padding:0 1rem;
+
+}
+
+#wrap .myMenuNone img {
+    display: block;
+    margin:30px auto;
+}
+
+
+#wrap .myMenuNone h6 {
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: 400;
+    color:#666;
+}
+
+
+#wrap .myMenuNone p{
+    font-family: 'Noto Sans KR';
+    font-size:.95rem;
+    text-align: center;
+    margin-bottom:7px;
+    color:#666;
+
+}
+
+#wrap .myMenuNone strong {
+    text-align: center;
+    display:block;
+    margin-top:25px;
+    color:#444;
+    font-family: 'Noto Sans KR';
+    font-size:1rem;
+}
+
+
+
+#wrap .myMenuAdd {
+    display: block;
+    margin-top:35px;
+    text-align: center;
+    
+}
+#wrap .myMenuAdd i {
+    position: relative;
+    font-size:1rem;
+    top:1px;    
+    margin-left:10px;
+}
+
+
+
+.formSubmitBtn {
+    display: block;
+    margin-top:15px;
+    width:100%;
+    padding:.8rem;
+    font-size:1.1rem;
+    background:#efc521;
+    border:none;
+    color:#000;
+    outline:none;
+}
 
 /* footer */
 footer {
@@ -466,7 +742,8 @@ footer ul li a i {
 
 footer ul li a span {
     display: block;
-    margin-top:5px;
+    margin-top:7px;
+    font-family:'BMDOHYEON' , sans-serif;
     font-size:.9rem;
-    font-weight: bold;
+    font-weight: 400;
 }
