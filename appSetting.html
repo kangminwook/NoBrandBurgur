@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/common.js"></script>
+    <title>Nobrand Burger - 앱 환경설정</title>
+</head>
+<body class="bodyType2">
+    
+    <!-- S: header -->
+    <header>
+        <div class="leftBack" onclick="history.back()">
+            <span><i class="fas fa-angle-left"></i></span>
+        </div>
+        <h1>
+            앱 환경설정
+            <!-- <img src="./assets/image/logo.svg" alt="노브랜드 로고"> -->
+        </h1>
+    </header>
+    <!-- E: header -->
+
+    <!-- S: wrap -->
+    <div id="wrap">
+
+        <!-- S : appSetting -->
+        <div class="appSetting">
+
+            <div class="loginSetting">
+                <h6><i class="fas fa-key"></i> 로그인 설정</h6>
+                <ul>
+                    <li>
+                        <div>tennis0385@naver.com</div>
+                        <div><a href="">로그아웃 <i class="fas fa-angle-right"></i></a></div>
+                    </li>
+                    <li>
+                        <div>자동로그인</div>
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="appSetting2">
+                <h6><i class="fas fa-mobile-alt"></i> 앱 설정</h6>
+                <ul>
+                    <li>
+                        <div>
+                            광고 앱 푸쉬 알림 허용
+                            <p>
+                                푸쉬 메시지를 이용하여 관로 알림 받는 것을 허용합니다.
+                            </p>
+                        </div>
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </li>
+                    <li>
+                        <div>위치정보 활용 동의</div>
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="appVersion">
+                <h6><i class="fas fa-info-circle"></i> 앱 버전</h6>
+                <ul>
+                    <li>
+                        현재버전
+                        <p>3.2.2..24.16</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <!-- E : appSetting -->
+
+
+
+    </div>
+    <!-- E: wrap -->
+
+
+    
+    
+<script>
+    // 회원 인풋박스 타입 체인지
+    passChangeType();
+
+</script>
+</body>
+</html>

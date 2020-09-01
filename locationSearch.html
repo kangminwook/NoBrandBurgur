@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/common.js"></script>
+    <title>Nobrand Burger - My배달지</title>
+</head>
+<body class="bodyType2">
+    
+    <!-- S: header -->
+    <header>
+        <div class="leftBack" onclick="history.back()">
+            <span><i class="fas fa-angle-left"></i></span>
+        </div>
+        <h1>
+            배달지 검색
+            <!-- <img src="./assets/image/logo.svg" alt="노브랜드 로고"> -->
+        </h1>
+    </header>
+    <!-- E: header -->
+
+    <!-- S: wrap -->
+    <div id="wrap">
+
+         <!-- S : userAdress -->
+        <div class="userAddress">
+            <i class="fas fa-map-marker-alt"></i> 서울특별시 광진구 아차산로29길 61-9 202
+        </div>
+        <!-- E : userAdress -->
+
+        <!-- S: searchBox -->
+        <div class="addressSearch">
+            <div class="addSearchInput">
+                <input type="text" placeholder="지번, 도로명, 건물명을 입력하세요.">
+                <label for="">
+                    <a href="">
+                        <i class="fas fa-search-location"></i>
+                    </a>
+                </label> 
+            </div>
+
+            <div class="hereLocationBtn">
+                <a href="">
+                    <i class="far fa-compass"></i>
+                    현 위치로 주소 설정
+                </a>
+            </div>
+        </div>
+        <!-- E: searchBox -->
+
+
+        <!-- S: delivery -->
+        <ul class="delivery">
+            <li class="active">
+                최근 배달지
+            </li>
+            <li>
+                MY배달지
+            </li>
+        </ul>
+        <!-- E: delivery -->
+
+
+        <!-- S : 최근 배달지가 없을때  body태그에서 bodyType2클래스를 넣어야한다. -->
+        <div class="pastBox">
+            <div>
+                <img src="./assets/image/stamp_type2.png" alt="노브랜드 심볼 마크">
+                <p>최근에 주문한</p>
+                <p>주소가 업습니다.</p>
+            </div>
+        </div>
+        <!-- E : 최근 배달지가 없을때 -->
+
+
+
+    </div>
+    <!-- E: wrap -->
+
+
+    
+    
+<script>
+    // 회원 인풋박스 타입 체인지
+    passChangeType();
+
+</script>
+</body>
+</html>

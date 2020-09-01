@@ -913,6 +913,347 @@ header .rightMenu span i {
 }
 
 
+
+/* 배달지 검색 */
+.userAddress{
+    padding:15px 0;
+    text-align: center;
+    background:#444;
+    color:#fff;
+    font-family: 'Noto Sans KR';
+    font-size:1rem;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+
+.addressSearch{
+    padding:25px 1rem;
+    border-bottom:5px solid #f1f1f1;
+}
+
+
+.addSearchInput {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom:25px;
+}
+
+.addSearchInput input {
+    font-family: 'Noto Sans KR';
+    border: none;
+    padding: 10px 0;
+    flex: 1;
+}
+
+.addSearchInput input:focus{
+    outline:none;
+}
+
+.addSearchInput input::placeholder{
+    font-size:1.1rem;
+    color:#666;
+}
+
+
+.addSearchInput label{
+    display: block;
+    text-align: center;
+    width: 10%;
+}
+
+.addSearchInput label a {
+    display: block;
+    padding:5px 8px;
+    text-align: center;
+    width: 100%;
+}
+
+.addSearchInput label a i{
+    display: block;
+    font-size:1.2rem;
+}
+
+.hereLocationBtn a{
+    display: block;
+    text-align: center;
+    padding:15px 0;
+    border:1px solid #e3e3e3;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+}
+
+.hereLocationBtn a i {
+    margin-right:7px;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+}
+
+.delivery li {
+    position: relative;
+    width: 50%;
+    padding:15px 0;
+    text-align: center;
+}
+
+.delivery li.active {
+    color:#efc521;
+}
+
+.delivery li.active::after{
+    display: block;
+    content: "";
+    position: absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:3px;
+    background: #efc521;
+}
+
+.pastBox {
+    position: relative;
+    background:#f1f1f1;
+    height:60vh;
+}
+
+.pastBox > div{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+
+.pastBox > div img {
+    margin-bottom:30px;
+}
+.pastBox > div p {
+    font-family: 'Noto Sans KR';
+    font-size: .95rem;
+    text-align: center;
+    margin-bottom: 7px;
+    color: #666;
+}
+
+
+/* apqsetting */
+.appSetting{
+    background:#f1f1f1;
+    height:100vh;
+    padding:20px 1rem;
+}
+
+
+.loginSetting, .appSetting2, .appVersion{
+    margin-bottom:25px;
+}
+
+.loginSetting h6, .appSetting2 h6, .appVersion h6{
+    margin-bottom:12px;
+    font-family: 'Noto Sans KR';
+    font-size: 1rem;
+}
+
+.loginSetting h6 i, .appSetting2 h6 i, .appVersion h6 i{
+    margin-right:8px;
+}
+
+.loginSetting ul, .appSetting2 ul,
+.appVersion ul {
+    background:#fff;
+    padding:25px 1rem;
+}
+
+
+.loginSetting li:last-child, .appSetting2 li:last-child,
+.appVersion li:last-child{
+    margin-bottom:0;
+}
+
+.loginSetting ul li, .appSetting2 li{
+    display: flex;
+    margin-bottom:30px;
+}
+
+.loginSetting ul li div{
+    font-family: 'Noto Sans KR';
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.loginSetting ul li:last-child div{
+    font-family: 'Noto Sans KR';
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.loginSetting ul li div a{
+    font-family: 'Noto Sans KR';
+    font-size: .9rem;
+}
+
+.loginSetting ul li div a i {
+    margin-left:5px;
+}
+
+/*  */
+
+.appSetting2 ul li div{
+    font-family: 'Noto Sans KR';
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.appSetting2 ul li div p{
+    font-family: 'Noto Sans KR';
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top:15px;
+    color:#777;
+}
+
+.appSetting2 ul li:first-child div{
+    font-family: 'Noto Sans KR';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.appSetting2 ul li:last-child div{
+    font-family: 'Noto Sans KR';
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.appSetting2 ul li div a{
+    font-family: 'Noto Sans KR';
+    font-size: .9rem;
+}
+
+.appSetting2 ul li div a i {
+    margin-left:5px;
+}
+
+.appSetting2 ul li div p{
+    font-family: 'Noto Sans KR';
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top:15px;
+    color:#777;
+}
+
+.loginSetting ul li div:first-child{
+    flex:1;
+}
+
+.appSetting2 ul li div:first-child{
+    flex:1;
+}
+
+.appVersion ul li p{
+    font-family: 'Noto Sans KR';
+    font-size: .7rem;
+    font-weight: 400;
+    margin-top:15px;
+    color:#777;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    top: -2px;
+  }
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eee;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    bottom: -3px;
+    background-color:#efc521;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.appSetting input:checked + .slider {
+    background-color: #333;
+}
+  
+.appSetting input:focus + .slider {
+    box-shadow: 0 0 1px #333;
+}
+  
+.appSetting input:checked + .slider:before {
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+}
+  
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* 이벤트 */
+.eventList{
+    background:#f1f1f1;
+    height: 100vh;
+    padding:15px .8rem;
+}
+
+.eventList li {
+    display: flex;
+    padding:12px .4rem;
+    border-bottom:1px solid #ccc;
+    margin-bottom:7px;
+}
+
+.eventList li p {
+    flex:1;
+    font-size:14px;
+}
+
+.eventList li span i{
+    position: relative;
+    top:-2px;
+    font-size:17px;
+}
+
+
+  
 /* footer */
 footer {
     position: fixed;

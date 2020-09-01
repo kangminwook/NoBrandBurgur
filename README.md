@@ -35,3 +35,11 @@
 
 
 ![Fitdays스크린샷3](./assets/image/README_img_03.jpg)
+
+
+
+---------------------------------------------------------------------
+
+
+
+![Fitdays스크린샷4](./assets/image/README_img_04.jpg)
